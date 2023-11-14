@@ -1,0 +1,107 @@
+[
+    {
+      "name": "개요",
+      "path": "/overview",
+      "children": [
+        {
+          "name": "자기 소개",
+          "path": "/overview/aboutme"
+        },
+        {
+          "name": "포트폴리오",
+          "path": "/overview/portfolio"
+        }
+      ]
+    },
+    {
+        "name": "주요 기술",
+        "path": "/core",
+        "children": [
+          {
+            "name": "스프링부트",
+            "path": "/core/springboot"
+          },
+          {
+            "name": "리액트",
+            "path": "/core/react"
+          }
+        ]
+      },
+      {
+        "name": "언어",
+        "path": "/language",
+        "children": [
+          {
+            "name": "코틀린",
+            "path": "/language/kotlin"
+          },
+          {
+            "name": "자바",
+            "path": "/language/java"
+          },
+          {
+            "name": "js",
+            "path": "/language/js"
+          }
+        ]
+      },
+      {
+        "name": "HTTP 웹 지식",
+        "path": "/web",
+        "children": [
+          {
+            "name": "statusCode",
+            "path": "/web/statusCode"
+          },
+          {
+            "name": "cache",
+            "path": "/web/cache"
+          },
+          {
+            "name": "cookie",
+            "path": "/web/cookie"
+          },
+          {
+            "name": "token",
+            "path": "/web/token"
+          },
+          {
+            "name": "session",
+            "path": "/web/session"
+          }
+        ]
+      },
+      {
+        "name": "cs",
+        "path": "/cs",
+        "children": [
+          {
+            "name": "filter",
+            "path": "/cs/filter"
+          },
+          {
+            "name": "intercepter",
+            "path": "/cs/intercepter"
+          },
+          {
+            "name": "AOP",
+            "path": "/cs/aop"
+          }
+        ]
+      },
+      {
+        "name": "WIKI",
+        "path": "/wiki",
+        "children": [
+          {
+            "name": "스프링부트",
+            "path": "https://springdoc.org/"
+          },
+          {
+            "name": "mdn",
+            "path": "https://developer.mozilla.org/ko/"
+          }
+        ]
+      }
+  ]
+  

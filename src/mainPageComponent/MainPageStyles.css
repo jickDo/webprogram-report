@@ -1,0 +1,35 @@
+.main-content{
+    overflow: auto; 
+    margin-top: 10%;
+    margin-left: 17%; 
+    margin-right: 250px;
+    margin-bottom: 200px;
+    padding: 20px;
+    width: calc(83%-200px);
+    word-wrap: break-word;
+    white-space: normal;
+    min-height: calc(100vh-10vh-200px);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+  }
+
+.main-content h1{
+  margin: 0px 0px 20px;
+  font-size: 45px;
+  font-style: bold;
+
+}
+
+.main-content p{    
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+.paragraph{
+    display: block;
+    margin: 1rem, 0, 0;
+}

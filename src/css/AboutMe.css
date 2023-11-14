@@ -1,0 +1,35 @@
+.about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+    background-color: var(--background-color);
+    color: var(--text-color);  }
+  
+  .profile-photo10 {
+    width: 250px;
+    height: 250px;
+    background-color: #ddd; 
+    border-radius: 50%; 
+    margin-bottom: 20px;
+    background-image: url('../../public/cute-mouse.png');
+  }
+  
+  .about-me-content h1 {
+    font-size: 36px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    }
+  
+  .about-me-content p {
+    font-size: 16px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6; 
+  }
+  
+  .contact-info p {
+    font-size: 14px;
+    background-color: var(--background-color);
+    color: var(--text-color);  }
+  

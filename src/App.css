@@ -1,0 +1,60 @@
+/* App.css 또는 index.css */
+.light {
+  --background-color: #fff;
+  --text-color: #000;
+}
+
+.dark {
+  --background-color: #333;
+  --text-color: #fff;
+}
+
+.App{
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex; 
+  flex-direction: column; 
+  width: 100%;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: absolute;
+}
+
+.font-size-10{
+  --background-color: #333;
+  --text-color: #fff;
+  font-size: 10px;
+}
+
+.font-size-15{
+  --background-color: #333;
+  --text-color: #fff;
+  font-size: 15px;
+}
+
+.font-size-20{
+  --background-color: #333;
+  --text-color: #fff;
+  font-size: 20px;
+}
+
+.font-size-25{
+  --background-color: #333;
+  --text-color: #fff;
+  font-size: 25px;
+}
+
+.font-size-30{
+  --background-color: #333;
+  --text-color: #fff;
+  font-size: 30px;
+}
+
+.font-size-40{
+  --background-color: #333;
+  --text-color: #fff;
+  font-size: 60px;
+  font-style: italic;
+}
